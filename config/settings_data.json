@@ -1844,6 +1844,19 @@
           "crop_image": false,
           "crop_style": "3-4"
         }
+      },
+      "press-template": {
+        "type": "press-template",
+        "settings": {
+          "layout": "columns",
+          "show_date": false,
+          "show_author": false,
+          "show_article_tags": false,
+          "show_sharing_icons": false,
+          "show_rss_icon": false,
+          "crop_image": false,
+          "crop_style": "3-4"
+        }
       }
     },
     "content_for_index": [
