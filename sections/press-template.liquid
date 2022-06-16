@@ -73,11 +73,9 @@
         {% endif %}
 
         <h2 style="text-align: center;">
-          {% if article.content %}
-          {{ article.content }}
+          {% if article.content =="" %}
           	<a href="{{ article.content }}" target=»_blank>{{ article.title }}</a>
           {% else %}
-          2
           	<a href="#" class="disabled" target=»_blank>{{ article.title }}</a>
           {% endif %}
         </h2>
