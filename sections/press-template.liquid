@@ -72,7 +72,11 @@
         </div>
         {% endif %}
 
-        <h2 style="text-align: center;"><a href="{{ article.content }}" target=»_blank>{{ article.title }}</a></h2>
+        <h2 style="text-align: center;">
+          {% if article.content %}
+          	<a href="{{ article.content }}" target=»_blank>{{ article.title }}</a>
+          {% endif %}
+        </h2>
 
 <!--         <div class="user-content"> -->
 <!--           {{ article.excerpt_or_content }} -->
