@@ -66,9 +66,15 @@
 
         {% if article.image %}
         <div class="article-image">
-          <a href="{{ article.content }}" target=»_blank>
-            {% render 'responsive-image', image: article.image, aspect_ratio: aspect_ratio, max_height: 450 %}
-          </a>
+          {% if article.content =="" %}
+          	<div target=»_blank>
+            	{% render 'responsive-image', image: article.image, aspect_ratio: aspect_ratio, max_height: 450 %}
+          	</div>
+          {% else %}
+          	<a href="{{ article.content }}" target=»_blank>
+            	{% render 'responsive-image', image: article.image, aspect_ratio: aspect_ratio, max_height: 450 %}
+          	</a>
+          {% endif %}
         </div>
         {% endif %}
 
