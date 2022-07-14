@@ -89,7 +89,8 @@
   {% render 'translation-lab-language-management' %}
 {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 {% include 'scapp-customerinfo' %} 
-</head>
+{% include 'bucks-cc' %}
+            </head>
 
 <body class="template-{{ template | split: '.' | first }}">
   <a class="skip-link visually-hidden" href="#content">{{ 'general.accessibility_labels.skip_to_content' | t }}</a>
