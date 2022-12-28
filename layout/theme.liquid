@@ -79,7 +79,7 @@
     document.documentElement.className = document.documentElement.className.replace('no-js', '');
   </script>
 
-  {% comment %} Speedimize {% endcomment %}{% if content_for_header contains "Shopify.designMode" %}{{ content_for_header }}{% else %}{% include 'modified_content-for-header' %}{% endif %}{% comment %}{{ content_for_header }}{% endcomment %}
+  {{ content_for_header }}
 
 
 
@@ -121,6 +121,6 @@
 {% render 'globo.preorder.script' %}{%- render 'layouthub_footer' -%} 
  
 
-<script data-spm="{{ shop.metafields.speedimize.hashKey }}|{{ theme.id }}" src="{{ 'speedimize.js' | asset_url }}"></script>
+
 </body>
 </html>
