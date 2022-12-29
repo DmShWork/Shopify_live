@@ -1467,15 +1467,6 @@
       "page-story-template": {
         "type": "page-story-template",
         "blocks": {
-          "105b372a-cdca-4994-9273-7eebfa668bc1": {
-            "type": "richtext",
-            "settings": {
-              "title": "About Us",
-              "text": "",
-              "alignment": "center",
-              "spacing": "fully-spaced-row"
-            }
-          },
           "1594504523441": {
             "type": "collage-with-text",
             "settings": {
@@ -1543,7 +1534,6 @@
           }
         },
         "block_order": [
-          "105b372a-cdca-4994-9273-7eebfa668bc1",
           "1594504523441",
           "1594504713830",
           "1594504888679",
