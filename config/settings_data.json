@@ -1311,7 +1311,7 @@
           "show_social_icons": false,
           "show_locale_selector": false,
           "show_currency_selector": false,
-          "signup_show": false,
+          "signup_show": true,
           "newsletter_title": "Signup for our newsletter",
           "newsletter_text": ""
         }
